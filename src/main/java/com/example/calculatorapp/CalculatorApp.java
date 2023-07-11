@@ -2,27 +2,21 @@ package com.example.calculatorapp;
 
 import com.fathzer.soft.javaluator.DoubleEvaluator;
 import javafx.application.Application;
-import javafx.beans.binding.Bindings;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.example.calculatorapp.Constants.*;
-import static com.example.calculatorapp.ErrorHandler.*;
+import static com.example.calculatorapp.Constants.APP_NAME;
+import static com.example.calculatorapp.Constants.CSS_PATH;
 import static com.example.calculatorapp.UIBuilder.*;
 
 

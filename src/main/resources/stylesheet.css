@@ -1,0 +1,30 @@
+.layout {
+    -fx-background-color: black;
+    -fx-padding: 20;
+    -fx-font-size: 20;
+}
+
+.screen {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+.button {
+    -fx-background-radius: 5em;
+    -fx-background-color: #404040;
+    -fx-text-fill: white;
+}
+
+.operand {
+    -fx-text-fill: lightgreen;
+}
+
+.operand#clear {
+    -fx-text-fill: red;
+}
+
+.operand#equal {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}

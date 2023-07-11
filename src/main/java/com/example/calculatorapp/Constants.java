@@ -7,6 +7,7 @@ public class Constants {
     public static final String REMOVE = "←";
     public static final String INVERSE = "⅟";
     public static final String SQUARE_ROOT = "√";
+    public static final String SIGN_CHANGE = "±";
     public static final String CSS_PATH = "/stylesheet.css";
     public static final String APP_NAME = "Calculator App";
     public static final String LAYOUT_STYLE_CLASS = "layout";
@@ -16,7 +17,7 @@ public class Constants {
     public static final String EQUALS_BUTTON_ID = "equal";
     public static final String[][] template = {
             {"%", "⅟", "√", "←"},
-            {"C", "(", ")", "/"},
+            {"C", "^", ")", "/"},
             {"7", "8", "9", "*"},
             {"4", "5", "6", "-"},
             {"1", "2", "3", "+"},

@@ -30,7 +30,7 @@ public class Makers {
         button.setOnAction(actionEvent -> saveExpression());
     }
 
-    public static void makeRemoveChar(Button button) {
+    public static void makeRemoveCharButton(Button button) {
         button.setOnAction(actionEvent -> removeChar());
     }
 
@@ -44,5 +44,9 @@ public class Makers {
 
     public static void makeInverseButton(Button button) {
         button.setOnAction(actionEvent -> inverse());
+    }
+
+    public static void makeSignChangeButton(Button button) {
+        button.setOnAction(actionEvent -> signChange());
     }
 }

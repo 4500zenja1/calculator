@@ -87,13 +87,15 @@ public class UIBuilder {
         } else if (EQUALS.equals(s)) {
             makeEqualsButton(button);
         } else if (REMOVE.equals(s)) {
-            makeRemoveChar(button);
+            makeRemoveCharButton(button);
         } else if (PERCENT.equals(s)) {
             makePercentButton(button);
         } else if (SQUARE_ROOT.equals(s)) {
             makeSquareRootButton(button);
         } else if (INVERSE.equals(s)) {
             makeInverseButton(button);
+        } else if (SIGN_CHANGE.equals(s)) {
+            makeSignChangeButton(button);
         } else {
             button.setOnAction(actionEvent -> {
                 stackExpression.set(stackExpression.get() + s);

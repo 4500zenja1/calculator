@@ -56,4 +56,9 @@ public class Logic {
             evaluateExpression();
         }
     }
+
+    public static void signChange() {
+        stackExpression.set("-(" + stackExpression.get() + ")");
+        evaluateExpression();
+    }
 }

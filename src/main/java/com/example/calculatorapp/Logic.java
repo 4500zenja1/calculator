@@ -24,7 +24,6 @@ public class Logic {
             showError("The expression can't be executed because it has errors in it");
         } else {
             stackExpression.set(expression.get());
-            expression.set("");
         }
     }
 

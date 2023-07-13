@@ -10,7 +10,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -44,7 +43,6 @@ public class CalculatorApp extends Application {
         scene.getStylesheets().add(CSS_PATH);
 
         primaryStage.setTitle(APP_NAME);
-        primaryStage.initStyle(StageStyle.UTILITY);
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
         primaryStage.show();
